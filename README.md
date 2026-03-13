@@ -31,6 +31,16 @@ For best OS detection, install `nmap`:
 
 OS detection may require root/sudo for nmap `-O` scans.
 
+## Check your public IP
+
+```bash
+chmod +x check-ip.sh   # first time only
+./check-ip.sh
+# 203.0.113.42
+```
+
+Works on **macOS**, **Linux**, and **Windows** (Git Bash, WSL, Cygwin). Uses `curl` or `wget`.
+
 ## Usage
 
 ```bash
