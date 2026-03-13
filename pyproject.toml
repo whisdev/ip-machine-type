@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ip-machine-type"
+version = "0.1.0"
+description = "Check IP machine OS type: local/VPS + Windows/Linux/macOS"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.scripts]
+ip-machine-type = "ip_machine_type.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ip_machine_type*"]

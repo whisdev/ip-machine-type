@@ -1,0 +1,2 @@
+# No external deps - uses system nmap and ping
+# Install nmap for best OS detection: apt install nmap / brew install nmap
