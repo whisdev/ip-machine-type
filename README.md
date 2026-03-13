@@ -41,6 +41,8 @@ chmod +x check-ip.sh   # first time only
 
 Works on **macOS**, **Linux**, and **Windows** (Git Bash, WSL, Cygwin). Uses `curl` or `wget`.
 
+**Windows:** Double-click `check-ip.bat` — runs natively like an .exe, no Bash needed.
+
 ## Usage
 
 ```bash
